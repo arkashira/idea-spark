@@ -1,2 +1,8 @@
-# idea-spark
-axentx product · An AI-powered idea generation tool that helps indie hackers and solo creators quickly discover and validate high-value product ideas in the creator economy.
+# Idea Generator
+A simple idea generator that filters ideas by category.
+
+## Usage
+Run the `main` function in `src/idea_generator.py` to see the idea generator in action.
+
+## Testing
+Run `pytest` in the root directory to run the tests.
