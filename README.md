@@ -1,8 +1,13 @@
-# Idea Generator
-A simple idea generator that filters ideas by category.
+# Idea Spark – Prompt Library & Customization
 
-## Usage
-Run the `main` function in `src/idea_generator.py` to see the idea generator in action.
+A tiny library that lets power users:
 
-## Testing
-Run `pytest` in the root directory to run the tests.
+* **Create** a named prompt template (max 500 tokens)
+* **Edit** an existing prompt
+* **Persist** prompts per user (JSON file storage)
+* **List** prompts for UI dropdowns
+* **Generate** ideas using the selected prompt instantly
+
+All logic lives in the standard library – no external runtime dependencies.
+
+## Install
