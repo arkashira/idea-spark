@@ -1,10 +1,14 @@
-[project]
-name = "idea-spark"
-version = "0.1.0"
-description = "Prompt library and customization for idea generation"
-authors = [{name = "Axentx"}]
-requires-python = ">=3.9"
-
 [build-system]
-requires = ["setuptools>=61.0"]
-build-backend = "setuptools.build_meta"
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
+
+[tool.poetry]
+name = "idea-spark"
+version = "1.0.0"
+description = ""
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.5"

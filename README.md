@@ -1,13 +1,10 @@
-# Idea Spark – Prompt Library & Customization
+# Idea Spark
+Idea Spark is a tool for discovering and filtering ideas by niche.
 
-A tiny library that lets power users:
+## Usage
+1. Create a JSON file containing a list of ideas with their respective niches and descriptions.
+2. Load the ideas into the IdeaSpark class.
+3. Use the `filter_by_niche` method to filter ideas by niche.
+4. Use the `get_niche_categories` method to get a list of unique niche categories.
 
-* **Create** a named prompt template (max 500 tokens)
-* **Edit** an existing prompt
-* **Persist** prompts per user (JSON file storage)
-* **List** prompts for UI dropdowns
-* **Generate** ideas using the selected prompt instantly
-
-All logic lives in the standard library – no external runtime dependencies.
-
-## Install
+## Example
